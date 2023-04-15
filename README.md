@@ -25,7 +25,7 @@ To run this project locally, please follow the steps below:
 ### Install the dependencies by running npm install or yarn install.
 ### Start the development server by running npm start or yarn start.
 
-##Focus Areas
+## Focus Areas
 
 ### Responsiveness
 The website is designed to be responsive, meaning it can be viewed on any device and browser.
