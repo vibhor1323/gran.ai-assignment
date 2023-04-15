@@ -1,0 +1,126 @@
+.d-flex {
+  display: flex;
+}
+
+.home-container {
+  padding: 60px 100px;
+  height: 5rem;
+  background-color: #f2eae3;
+}
+
+.logo-img {
+  background: black;
+  width: max-content;
+  position: relative;
+  top: -30px;
+}
+
+.cart {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  right: 30px;
+}
+
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #252424cc;
+  height: 200%;
+  width: 100vw;
+}
+
+.cart-modal {
+  position: relative;
+  left: 25%;
+  min-height: 10rem;
+  width: 45%;
+  background: white;
+  bottom: 80rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home-container .product-container {
+  display: flex;
+  padding: 12vh 0px 5vh 3vw;
+  height: 120px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.home-container .product-container .product-category {
+  display: flex;
+  width: 33.33%;
+}
+
+.home-container .product-container .product-category .product-category-details {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.home-container
+  .product-container
+  .product-category
+  .product-category-details
+  .name {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.heading {
+  padding: 50px 0px 0px 0px;
+  font-family: emoji;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.item-container {
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.item-container .item {
+  width: 28%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  margin-bottom: 35px;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.item-container .item:hover {
+  box-shadow: 4px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.item-container .item .item-button {
+  position: relative;
+  top: 20px;
+  width: max-content;
+  margin: auto;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.item-container .item .item-button-custom {
+  position: relative;
+  top: 20px;
+  width: max-content;
+  margin: auto;
+  background: white;
+  border-radius: 5px;
+  width: 6rem;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.item-container .item .item-button-custom .fa-icon {
+  margin: auto;
+}
+
+.item-container .item .item-img {
+  height: 17vh;
+  width: 10vw;
+}
